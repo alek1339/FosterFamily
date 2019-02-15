@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/adopted.css">
+    <title>Грижа за животните</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="home">
+        <header>
+            <a href="#" id="showMenu"><i class="fas fa-align-justify"></i> Menu </a>
+            <a href="./index.html"><img src="./images/logo1.png" alt="" width="180px"></a>
+            <ul>
+                <li><a href="">Face</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Inst</a></li>
+            </ul>
+        </header>
+
+        <!-- Section Slider -->
+        <section class="adoptedGallery">
+            <div class="desc">
+                <h1>Грижа за животните</h1>
+            </div>
+            <div class="pictures">
+                <picture><img src="./images/care/51158906_1027263854136063_3798030337083179008_n.jpg" alt="" width="100%"></picture>
+                <picture><img src="./images/care/51754608_1027263954136053_3084116999081558016_n.jpg" alt="" width="100%"></picture>
+                <picture><img src="./images/care/51552778_1029186287277153_1120721228550635520_n.jpg" alt="" width="100%"></picture>
+                <picture><img src="./images/galeries/51129526_1026624687533313_8499757626156908544_o.jpg" alt="" width="100%"></picture>
+                <picture><img src="./images/galeries/51155597_1026624544199994_3546666611580600320_n.jpg" alt="" width="100%"></picture>
+                <picture><img src="./images/galeries/51161433_1026623647533417_7639255340650856448_n.jpg" alt="" width="100%"></picture>
+
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <!-- Хиден -->
+
+    <div class="hidden">
+        <div class="menu">
+            <div class="logoAndButton">
+                <a href="./index.html"><img src="./images/Untitled.png" alt="" width="180px"></a>
+                <a href="#" id="hideMenu"> <i class="fa fa-window-close" aria-hidden="true"></i></a>
+            </div>
+            <ul>
+                <li><button onclick="goalsClicked()">Кой сме ние</button></li>
+                <li><button onclick="dayCareClicked()">Грижа за животните</button></li>
+                <li><button onclick="adoptedAnimalsClicked()">Осиновени кучета</button></li>
+                <li><button onclick="forAdoption()">За осиновяване</button></li>
+                <li><button onclick="contactsClicked()">Контакти</button></li>
+            </ul>
+        </div>
+
+        <div class="backgroundImage" id="bckgImg">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5872.957893618543!2d23.02742447447905!3d42.608797413052244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14aacac3f748a6f3%3A0x45a637674c09fde4!2z0J_QtdGA0L3QuNC6INCm0LXQvdGC0YrRgCwg0J_QtdGA0L3QuNC6!5e0!3m2!1sbg!2sbg!4v1550142606078"
+                width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="hiddenPageContent">
+            <section class="hiddenContentFirstHalf">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, sapiente!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+            </section>
+
+            <section class="hiddenContentSecondHalf">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, fugit!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sunt dolores tempora pariatur. Ullam,
+                    excepturi?</p>
+            </section>
+
+            <!-- Goals -->
+            <div class="menu-content-boxes">
+                <section class="goalsFirstHalf">
+                    <h3>Our Goals</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                        blanditiis repellat.</p>
+                </section>
+
+                <section class="goalsSecondHalf">
+                    <button><a href="./aboutUs.html">Научи повече</a></button>
+                </section>
+            </div>
+
+            <!-- Day Care -->
+            <section class="dayCareFirstHalf">
+                <h3>Our Day Care</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+            </section>
+
+            <section class="dayCareSecondHalf">
+                <h3>More Day Care</h3>
+                <button onclick="hideMenu()">Виж Галерия</button>
+            </section>
+
+            <!-- Sunday Walks -->
+            <section class="sundayWalksFirstHalf">
+                <h3>Sunday walks =</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+            </section>
+
+            <section class="sundayWalksSecondHalf">
+                <button>Към галерия</button>
+            </section>
+
+            <!-- Adopted Animals -->
+            <section class="adoptedAnimalsFirstHalf">
+                <h3>Осиновени кучета</h3>
+                <p>Това са част от осиновените кучета, които успяхме да задомим в прекрасни семейства и за които често
+                    получаваме обратна връзка. Ние помогнахме с приемен дом,а на нас ни помогнаха с осиновители,
+                    транспорт, медицински услуги, храна и финансова помощ.</p>
+            </section>
+
+            <section class="adoptedAnimalsSecondHalf">
+                <button><a href="adopted.html">Към галерия</a></button>
+            </section>
+
+            <!-- Contacts -->
+            <section class="contactsFirstHalf">
+                <h3>Contacts</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+            </section>
+
+            <section class="contactsSecondHalf">
+                <p>TEL:</p>
+                <p>Email:</p>
+                <p>facebook:</p>
+            </section>
+        </div>
+
+    </div>
+
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>

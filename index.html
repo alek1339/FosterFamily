@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>My Foster Family</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="home">
+        <header>
+            <a href="#" id="showMenu"><i class="fas fa-align-justify"></i> Menu </a>
+            <a href="./index.html"><img src="./images/logo1.png" alt="" width="180px"></a>
+            <ul>
+                <li><a href="">Face</a></li>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Inst</a></li>
+            </ul>
+        </header>
+
+        <!-- Section Slider -->
+        <section class="slider">
+            <aside>
+                <p>Стараейки се за щастието на другите, ние постигнахме своето собствено!</p>
+                <p> Ние сме Евелин и Кристиан Георгиеви. Двама млади, луди и влюбени в това да помагат на бездомни
+                    животни. </p>
+                <a href="#">Научи повече <i class="far fa-arrow-alt-circle-right"></i></a>
+            </aside>
+
+            <div></div>
+        </section>
+    </div>
+
+    <div class="hidden">
+        <div class="menu">
+            <div class="logoAndButton">
+                <a href="#"><img src="./images/Untitled.png" alt="" width="180px"></a>
+                <a href="#" id="hideMenu"> <i class="fa fa-window-close" aria-hidden="true"></i></a>
+            </div>
+            <ul>
+                <li><button onclick="goalsClicked()">Кой сме ние</button></li>
+                <li><button onclick="dayCareClicked()">Грижа за животните</button></li>
+                <li><button onclick="adoptedAnimalsClicked()">Осиновени кучета</button></li>
+                <li><button onclick="forAdoption()">За осиновяване</button></li>
+                <li><button onclick="contactsClicked()">Контакти</button></li>
+            </ul>
+        </div>
+
+        <div class="backgroundImage" id="bckgImg">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5872.957893618543!2d23.02742447447905!3d42.608797413052244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14aacac3f748a6f3%3A0x45a637674c09fde4!2z0J_QtdGA0L3QuNC6INCm0LXQvdGC0YrRgCwg0J_QtdGA0L3QuNC6!5e0!3m2!1sbg!2sbg!4v1550142606078"
+                width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+        <div class="hiddenPageContent">
+
+
+            <!-- Goals -->
+            <section class="goalsFirstHalf">
+                <p>Ние сме Евелин и Кристиан Георгиеви. </p>
+                <p>Двама млади, луди и влюбени в това да помагат на бездомни
+                    животни.
+                    За последните години успяхме да помогнем на много бездомничета като приемен дом, където бяха
+                    отгледани като в истинско семейство докато бъдат осиновени.</p>
+            </section>
+
+            <section class="goalsSecondHalf">
+                <p>Полагаме ежедневни грижи с медицинско лечение, специални диети, физиотерапии и всичко останало
+                    необходимо за едно животно да израстне или да се възстанови здраво. </p>
+                <button><a href="./aboutUs.html">Научи повече</a></button>
+            </section>
+
+            <!-- Day Care -->
+            <section class="dayCareFirstHalf">
+                <h3>Our Day Care</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+            </section>
+
+            <section class="dayCareSecondHalf">
+                <button><a href="animalsCare.html">Към галерия</a></button>
+            </section>
+
+            <!-- Sunday Walks -->
+            <section class="sundayWalksFirstHalf">
+                <h3>Sunday walks =</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+            </section>
+
+            <section class="sundayWalksSecondHalf">
+                <h3>More Sunday walks</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+                <button>See Gallery</button>
+            </section>
+
+            <!-- Adopted Animals -->
+            <section class="adoptedAnimalsFirstHalf">
+                <h3>Осиновени кучета</h3>
+                <p>Това са част от осиновените кучета, които успяхме да задомим в прекрасни семейства и за които често
+                    получаваме обратна връзка. Ние помогнахме с приемен дом,а на нас ни помогнаха с осиновители,
+                    транспорт, медицински услуги, храна и финансова помощ.</p>
+            </section>
+
+            <section class="adoptedAnimalsSecondHalf">
+                <button><a href="adopted.html">Към галерия</a></button>
+            </section>
+
+            <!-- Contacts -->
+            <section class="contactsFirstHalf">
+                <h3>Contacts</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit sapiente nemo quisquam vitae
+                    blanditiis repellat.</p>
+            </section>
+
+            <section class="contactsSecondHalf">
+                <p>TEL:</p>
+                <p>Email:</p>
+                <p>facebook:</p>
+            </section>
+        </div>
+
+    </div>
+
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>

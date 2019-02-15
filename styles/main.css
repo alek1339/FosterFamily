@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEF2E2;
+
+}
+
+h1,h2,h3,h4,h5,h6, p, a{
+    font-family: 'Gotham', sans-serif;
+}
+
+img{
+    object-fit: cover;
+}
+
+#home{
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header */
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #EEF2E2;
+    padding-bottom: 0;
+    padding-top: 1rem;
+    height: 130px;
+}
+
+header a{
+    justify-self: center;
+}
+
+header a , header ul{
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color:#425664;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-weight: 400;
+}
+
+header ul li {
+    display: inline;
+}
+
+/* Slier Section */
+.slider{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+}
+.slider aside{
+    padding: 3.5rem;
+    background-color: #425664;
+    color: #EEF2E2;
+    font-size:20px;
+    font-family: "Utopia Std", serif;
+    font-weight: 400;
+    border-top: 60px solid #EEF2E2;
+}
+.slider div{
+   background-image: url('../images/slider_img1.jpg');
+   background-size: cover;
+    height: 500px;
+}
+.slider a {
+    color: white;
+}
+
+
+.hidden{
+    height: 100vh;
+}
+
+
+/* MENU */
+.menu{
+    min-height: 80vh;
+    background-color: #425664;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 3rem;  
+    color: white;
+}
+.menu a {
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-weight:400;
+    text-transform: uppercase;
+}
+
+.menu ul{
+    padding: 0;
+}
+
+.menu li{
+    list-style-type: none;
+    padding-bottom: 1.5rem;
+}
+
+button{
+    background: none;
+    padding: 0;
+    border: none;
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-weight:400;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+button:hover{
+    text-decoration: underline;
+    border: none;
+}
+
+/* Hidden Page */
+.backgroundImage{
+    background-image: url('../images/slider_img2.jpg');
+}
+
+.dayCareFirstHalf{
+    display: none;
+}
+
+.dayCareSecondHalf{
+    display: none;
+}
+
+.sundayWalksFirstHalf{
+    display: none;
+}
+
+.sundayWalksSecondHalf{
+    display: none;
+}
+
+.adoptedAnimalsFirstHalf{
+    display: none;
+}
+
+.adoptedAnimalsSecondHalf{
+    display: none;
+}
+
+.contactsFirstHalf{
+    display: none;
+}
+
+.contactsSecondHalf{
+    display: none;
+}
+
+
+iframe{
+    visibility: hidden;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:focus {
+    outline:0;
+}
+
+
+.hidden{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.logoAndButton{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.hiddenPageContent{
+    display: flex;
+    padding: 2rem;
+}
+
+.hiddenPageContent section{
+    flex-basis: 50%;
+}
+
+.hiddenPageContent section{
+    padding-right: 1rem;
+}
+
+.hiddenPageContent button{
+    color: black;
+}
+
+.menu-content-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
