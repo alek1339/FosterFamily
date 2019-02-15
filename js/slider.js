@@ -37,7 +37,7 @@ function goalsClicked () {
   adoptedAnimalsSecondHalf.style.display = 'none'
   contactsFirstHalf.style.display = 'none'
   contactsSecondHalf.style.display = 'none'
-  bckgImg.style.backgroundImage = 'url(../images/slider_img3.jpg)'
+  bckgImg.style.backgroundImage = 'url(./images/slider_img3.jpg)'
   map.style.visibility = 'hidden'
 }
 
@@ -67,7 +67,7 @@ function dayCareClicked () {
 
   dayCareFirstHalf.style.display = 'block'
   dayCareSecondtHalf.style.display = 'block'
-  bckgImg.style.backgroundImage = 'url(../images/slider_img2.jpg)'
+  bckgImg.style.backgroundImage = 'url(./images/slider_img2.jpg)'
   map.style.visibility = 'hidden'
 }
 
@@ -96,7 +96,7 @@ function forAdoption () {
 
   sundayWalksFirstHalf.style.display = 'block'
   sundayWalksSecondHalf.style.display = 'block'
-  bckgImg.style.backgroundImage = 'url(../images/slider_img1.jpg)'
+  bckgImg.style.backgroundImage = 'url(./images/slider_img1.jpg)'
   map.style.visibility = 'hidden'
 }
 
