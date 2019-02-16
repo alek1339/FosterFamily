@@ -6,11 +6,11 @@ $('#hideMenu').click(function () {
   $('#home').animate({ 'width': 'toggle' }, 500)
 })
 
-function hideMenu () {
+function hideMenu() {
   $('#home').animate({ 'width': 'toggle' }, 500)
 }
 
-function goalsClicked () {
+function goalsClicked() {
   let bckgImg = document.getElementById('bckgImg')
 
   let goalsFirstHalf = document.getElementsByClassName('goalsFirstHalf')[0]
@@ -41,7 +41,7 @@ function goalsClicked () {
   map.style.visibility = 'hidden'
 }
 
-function dayCareClicked () {
+function dayCareClicked() {
   let goalsFirstHalf = document.getElementsByClassName('goalsFirstHalf')[0]
   let goalsSecondHalf = document.getElementsByClassName('goalsSecondHalf')[0]
 
@@ -71,7 +71,7 @@ function dayCareClicked () {
   map.style.visibility = 'hidden'
 }
 
-function forAdoption () {
+function forAdoption() {
   let goalsFirstHalf = document.getElementsByClassName('goalsFirstHalf')[0]
   let goalsSecondHalf = document.getElementsByClassName('goalsSecondHalf')[0]
   let bckgImg = document.getElementById('bckgImg')
@@ -96,11 +96,11 @@ function forAdoption () {
 
   sundayWalksFirstHalf.style.display = 'block'
   sundayWalksSecondHalf.style.display = 'block'
-  bckgImg.style.backgroundImage = 'url(./images/slider_img1.jpg)'
+  bckgImg.style.backgroundImage = 'url(./images/care/3.jpg)'
   map.style.visibility = 'hidden'
 }
 
-function adoptedAnimalsClicked () {
+function adoptedAnimalsClicked() {
   let goalsFirstHalf = document.getElementsByClassName('goalsFirstHalf')[0]
   let goalsSecondHalf = document.getElementsByClassName('goalsSecondHalf')[0]
   let bckgImg = document.getElementById('bckgImg')
@@ -129,7 +129,7 @@ function adoptedAnimalsClicked () {
   map.style.visibility = 'hidden'
 }
 
-function contactsClicked () {
+function contactsClicked() {
   let goalsFirstHalf = document.getElementsByClassName('goalsFirstHalf')[0]
   let goalsSecondHalf = document.getElementsByClassName('goalsSecondHalf')[0]
   let dayCareFirstHalf = document.getElementsByClassName('dayCareFirstHalf')[0]
